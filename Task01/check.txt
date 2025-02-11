@@ -1,0 +1,23 @@
+Позитивные тесты:
+1. (2, 2, 2) - equilateral
+2. (10, 10, 10) - equilateral
+3. (3, 4, 5) - nonequilateral
+4. (9, 8, 7) - nonequilateral
+5. (5, 5, 6) - isosceles
+6. (4, 2, 4) - isosceles
+7. (9, 9, 7) - isosceles
+
+Негативные тесты:
+1. (1, 1, 3) - IncorrectTriangleSides (стороны не образуют треугольник)
+2. (-1, -1, -1) - IncorrectTriangleSides (равносторонний треугольник с отрицательными сторонами)
+3. (1, -1, 1) - IncorrectTriangleSides (отрицательная сторона)
+4. (-2, 2, 3) - IncorrectTriangleSides (отрицательная сторона)
+5. (3, 2, -4) - IncorrectTriangleSides (отрицательная сторона)
+6. (-1, 1, -1) - IncorrectTriangleSides (отрицательные стороны)
+7. (-2, -2, 3) - IncorrectTriangleSides (отрицательные стороны)
+8. (3, -2, -4) - IncorrectTriangleSides (отрицательные стороны)
+9. (-4, -4, -7) - IncorrectTriangleSides (отрицательные стороны)
+10. (0, 2, 2) - IncorrectTriangleSides (сторона равна нулю)
+11. (2, 2, 0) - IncorrectTriangleSides (сторона равна нулю)
+12. (5, 10, 16) - IncorrectTriangleSides (стороны не образуют треугольник)
+13. (0, 0, 0) - IncorrectTriangleSides (стороны равны нулю)
